@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class AppController {
-    @Value("$spring.application.name")
+    @Value("${spring.application.name}")
     String appName;
 
     @GetMapping("/")

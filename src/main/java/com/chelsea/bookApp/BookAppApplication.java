@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("com.chelsea.persistence.repo")
-@EntityScan("com.chelsea.persistence.model")
+@EnableJpaRepositories("com.chelsea.bookApp.model")
+@EntityScan("com.chelsea.bookApp.model")
 @SpringBootApplication
 public class BookAppApplication {
 
